@@ -1,0 +1,19 @@
+{
+  "name": "EuroRobotic.com - Premium Domain Sale",
+  "short_name": "EuroRobotic",
+  "description": "Premium domain for European robotics innovation and automation excellence",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#f59e0b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["business", "technology", "robotics"],
+  "lang": "en-US"
+}
