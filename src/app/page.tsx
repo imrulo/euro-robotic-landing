@@ -58,7 +58,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
-              className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center leading-snug break-words overflow-wrap-anywhere [overflow-wrap:anywhere] max-w-[90%] sm:max-w-[80%] mx-auto px-4 sm:px-6 md:px-8 text-white"
             >
               Acquire{' '}
               <span className="bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 bg-clip-text text-transparent">
