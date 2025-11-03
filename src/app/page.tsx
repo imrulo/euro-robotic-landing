@@ -58,10 +58,10 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
-              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center leading-snug break-words overflow-wrap-anywhere [overflow-wrap:anywhere] max-w-[90%] sm:max-w-[80%] mx-auto px-4 sm:px-6 md:px-8 text-white"
+              className="text-[clamp(1.8rem,6vw,4.5rem)] sm:text-[clamp(2rem,5vw,5rem)] font-bold text-center leading-snug mx-auto px-4 sm:px-6 md:px-8 max-w-[90%] sm:max-w-[80%] whitespace-nowrap overflow-x-auto tracking-tight"
             >
               Acquire{' '}
-              <span className="bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 bg-clip-text text-transparent">
+              <span className="inline-block select-none bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 bg-clip-text text-transparent">
                 EuroRobotic.com
               </span>
             </motion.h1>
